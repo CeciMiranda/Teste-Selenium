@@ -1,0 +1,211 @@
+{
+  "id": "8365db5a-fb0a-49ce-8ae7-87e45f504d03",
+  "version": "2.0",
+  "name": "TESTE CARRINHO DE COMPRAS",
+  "url": "https://www.itwigs.com.br",
+  "tests": [{
+    "id": "8d2b5aec-3153-426f-b73f-7c57d7e9b97a",
+    "name": "carrinho",
+    "commands": [{
+      "id": "7e9a1be9-4eb7-4aed-8d39-be6aedb828b0",
+      "comment": "",
+      "command": "open",
+      "target": "/",
+      "targets": [],
+      "value": ""
+    }, {
+      "id": "2cfabf22-5904-4a7a-b2f9-998f49449d56",
+      "comment": "",
+      "command": "setWindowSize",
+      "target": "1552x832",
+      "targets": [],
+      "value": ""
+    }, {
+      "id": "41901874-200c-40d9-89d9-30349b1c0b0a",
+      "comment": "",
+      "command": "runScript",
+      "target": "window.scrollTo(0,1200)",
+      "targets": [],
+      "value": ""
+    }, {
+      "id": "b6982c57-6859-4df0-88a3-b8572dd918d5",
+      "comment": "",
+      "command": "click",
+      "target": "css=.prod-id-288784405:nth-child(5) .produto-sobrepor",
+      "targets": [
+        ["css=.prod-id-288784405:nth-child(5) .produto-sobrepor", "css:finder"],
+        ["xpath=//div[@id='corpo']/div/div/div/ul/div[2]/div/div[5]/div/a", "xpath:idRelative"],
+        ["xpath=//a[contains(@href, 'https://www.itwigs.com.br/domenickbtsn227')]", "xpath:href"],
+        ["xpath=//div[5]/div/a", "xpath:position"]
+      ],
+      "value": ""
+    }, {
+      "id": "efa91468-6bba-499d-b9bb-91c66df466f1",
+      "comment": "",
+      "command": "mouseOver",
+      "target": "css=#splide01-slide01 img",
+      "targets": [
+        ["css=#splide01-slide01 img", "css:finder"],
+        ["xpath=(//img[@alt='Lace front Lady cor BTSN2/27 (Domenick) - Imagem 1'])[2]", "xpath:img"],
+        ["xpath=//li[@id='splide01-slide01']/a/img", "xpath:idRelative"],
+        ["xpath=//div[2]/div/div/ul/li/a/img", "xpath:position"]
+      ],
+      "value": ""
+    }, {
+      "id": "2d36ef2c-1c07-4294-ab04-762a39acd0bb",
+      "comment": "",
+      "command": "mouseOut",
+      "target": "css=#splide01-slide01 img:nth-child(1)",
+      "targets": [
+        ["css=#splide01-slide01 img:nth-child(1)", "css:finder"],
+        ["xpath=(//img[@alt='Lace front Lady cor BTSN2/27 (Domenick) - Imagem 1'])[2]", "xpath:img"],
+        ["xpath=//li[@id='splide01-slide01']/a/img", "xpath:idRelative"],
+        ["xpath=//div[2]/div/div/ul/li/a/img", "xpath:position"]
+      ],
+      "value": ""
+    }, {
+      "id": "02aafff8-b430-44fe-9c29-335ddf8097da",
+      "comment": "",
+      "command": "mouseOver",
+      "target": "css=#splide01-slide01 .zoomImg",
+      "targets": [
+        ["css=#splide01-slide01 .zoomImg", "css:finder"],
+        ["xpath=//img[contains(@src,'https://cdn.awsli.com.br/2500x2500/1355/1355803/produto/288784405/img_3762-6id6ny81eh.jpeg')]", "xpath:img"],
+        ["xpath=//li[@id='splide01-slide01']/a/img[2]", "xpath:idRelative"],
+        ["xpath=//img[2]", "xpath:position"]
+      ],
+      "value": ""
+    }, {
+      "id": "7680d94a-0479-4e12-b49c-5c09929decc2",
+      "comment": "",
+      "command": "mouseOut",
+      "target": "css=#splide01-slide01 .zoomImg",
+      "targets": [
+        ["css=#splide01-slide01 .zoomImg", "css:finder"],
+        ["xpath=//img[contains(@src,'https://cdn.awsli.com.br/2500x2500/1355/1355803/produto/288784405/img_3762-6id6ny81eh.jpeg')]", "xpath:img"],
+        ["xpath=//li[@id='splide01-slide01']/a/img[2]", "xpath:idRelative"],
+        ["xpath=//img[2]", "xpath:position"]
+      ],
+      "value": ""
+    }, {
+      "id": "fe3e0d51-22b8-4956-88e5-4888c38e1cd6",
+      "comment": "",
+      "command": "click",
+      "target": "linkText=Comprar",
+      "targets": [
+        ["linkText=Comprar", "linkText"],
+        ["css=.grande:nth-child(2)", "css:finder"],
+        ["xpath=//div[@id='corpo']/div/div/div[2]/div/div/div[2]/div/div[2]/div[4]/a", "xpath:idRelative"],
+        ["xpath=//a[contains(@href, 'https://www.itwigs.com.br/carrinho/produto/288784405/adicionar')]", "xpath:href"],
+        ["xpath=//div[2]/div[4]/a", "xpath:position"],
+        ["xpath=//a[contains(.,'Comprar')]", "xpath:innerText"]
+      ],
+      "value": ""
+    }, {
+      "id": "9ead14c3-86c6-4616-97d6-3ca8f3000e95",
+      "comment": "",
+      "command": "click",
+      "target": "css=.logo img",
+      "targets": [
+        ["css=.logo img", "css:finder"],
+        ["xpath=//img[@alt='ITWIGS']", "xpath:img"],
+        ["xpath=//div[@id='cabecalho']/div/div/div/h2/a/img", "xpath:idRelative"],
+        ["xpath=//img", "xpath:position"]
+      ],
+      "value": ""
+    }, {
+      "id": "e7c90e72-cf8a-40b8-8bd1-1e572c54bd35",
+      "comment": "",
+      "command": "runScript",
+      "target": "window.scrollTo(0,613.5999755859375)",
+      "targets": [],
+      "value": ""
+    }, {
+      "id": "389e6500-90d8-48f0-ada7-83db29a44569",
+      "comment": "",
+      "command": "mouseOver",
+      "target": "css=.prod-id-257819299:nth-child(7) .produto-sobrepor",
+      "targets": [
+        ["css=.prod-id-257819299:nth-child(7) .produto-sobrepor", "css:finder"],
+        ["xpath=//div[@id='corpo']/div[2]/div/div/ul/div[2]/div/div[7]/div/a", "xpath:idRelative"],
+        ["xpath=//a[contains(@href, 'https://www.itwigs.com.br/marisa2')]", "xpath:href"],
+        ["xpath=//div[2]/div/div/ul/div[2]/div/div[7]/div/a", "xpath:position"]
+      ],
+      "value": ""
+    }, {
+      "id": "bf002af7-2f6b-477c-8940-c877d9368a37",
+      "comment": "",
+      "command": "runScript",
+      "target": "window.scrollTo(0,1696)",
+      "targets": [],
+      "value": ""
+    }, {
+      "id": "26956162-fd9d-4d39-b2d7-f43fbf2967d9",
+      "comment": "",
+      "command": "click",
+      "target": "css=.prod-id-257819299:nth-child(7) .produto-sobrepor",
+      "targets": [
+        ["css=.prod-id-257819299:nth-child(7) .produto-sobrepor", "css:finder"],
+        ["xpath=//div[@id='corpo']/div[2]/div/div/ul/div[2]/div/div[7]/div/a", "xpath:idRelative"],
+        ["xpath=//a[contains(@href, 'https://www.itwigs.com.br/marisa2')]", "xpath:href"],
+        ["xpath=//div[2]/div/div/ul/div[2]/div/div[7]/div/a", "xpath:position"]
+      ],
+      "value": ""
+    }, {
+      "id": "26db99f1-6ed0-4458-a301-06634e0195b1",
+      "comment": "",
+      "command": "mouseOut",
+      "target": "css=.prod-id-257819299:nth-child(7) .produto-sobrepor",
+      "targets": [
+        ["css=.prod-id-257819299:nth-child(7) .produto-sobrepor", "css:finder"],
+        ["xpath=//div[@id='corpo']/div[2]/div/div/ul/div[2]/div/div[7]/div/a", "xpath:idRelative"],
+        ["xpath=//a[contains(@href, 'https://www.itwigs.com.br/marisa2')]", "xpath:href"],
+        ["xpath=//div[2]/div/div/ul/div[2]/div/div[7]/div/a", "xpath:position"]
+      ],
+      "value": ""
+    }, {
+      "id": "37887410-cbe6-401e-beeb-d8268eb6e981",
+      "comment": "",
+      "command": "click",
+      "target": "linkText=Comprar",
+      "targets": [
+        ["linkText=Comprar", "linkText"],
+        ["css=.grande:nth-child(2)", "css:finder"],
+        ["xpath=//div[@id='corpo']/div/div/div[2]/div/div/div[2]/div/div[2]/div[4]/a", "xpath:idRelative"],
+        ["xpath=//a[contains(@href, 'https://www.itwigs.com.br/carrinho/produto/257819299/adicionar')]", "xpath:href"],
+        ["xpath=//div[2]/div[4]/a", "xpath:position"],
+        ["xpath=//a[contains(.,'Comprar')]", "xpath:innerText"]
+      ],
+      "value": ""
+    }, {
+      "id": "9f9a984f-5f96-4b5f-a293-0a2c8ebf88e0",
+      "comment": "",
+      "command": "click",
+      "target": "css=.grande",
+      "targets": [
+        ["css=.grande", "css:finder"],
+        ["xpath=//div[@id='corpo']/div/div/div/form/div/div/button", "xpath:idRelative"],
+        ["xpath=//form/div/div/button", "xpath:position"],
+        ["xpath=//button[contains(.,'Finalizar compra')]", "xpath:innerText"]
+      ],
+      "value": ""
+    }, {
+      "id": "e37cd5dd-f237-424f-903b-6ebc88cdf2a7",
+      "comment": "",
+      "command": "close",
+      "target": "",
+      "targets": [],
+      "value": ""
+    }]
+  }],
+  "suites": [{
+    "id": "f33aeea3-8f92-41f4-be38-60b29198e168",
+    "name": "Default Suite",
+    "persistSession": false,
+    "parallel": false,
+    "timeout": 300,
+    "tests": ["8d2b5aec-3153-426f-b73f-7c57d7e9b97a"]
+  }],
+  "urls": ["https://www.itwigs.com.br/"],
+  "plugins": []
+}
